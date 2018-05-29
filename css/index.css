@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    background: url(../images/faded.jpg) no-repeat 50% 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 700%;
+    line-height: .9;
+}
+
+h3 {
+    font-size: 260%;
+    font-weight: 500%;
+    line-height: 1.2;
+}
+
+.btn-default {
+    background-color: #FFF;
+    color: #36342F;
+    font-size: 160%;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: #36342F;
+}
+
+@media (max-width: 760px) {
+    h1 {
+        font-size: 350%;
+        
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    btn-default {
+        font-size: 120%;
+    }
+}
+
+#info {
+    max-width: 200px;
+    margin: 1% auto;
+    width: 60%;
+    height: 60%;
+}
+
+
+.container {
+    margin: 4% auto;
+}
+
+@media (max-width: 600px) {
+    #icon {
+        max-width: 150px;
+    }
+    
+    p {
+        font-size: 90%;
+    }
+}
+
+.card-body li{
+    margin: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
